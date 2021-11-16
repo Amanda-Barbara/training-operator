@@ -153,6 +153,9 @@ Done!
 2021-11-10T06:51:12Z INFO     {metricName: accuracy, metricValue: 0.7313};{metricName: loss, metricValue: 0.6649}
 ```
 
+## 下一步计划
+* 参考[mnist自定义镜像](./mnist/README.md)搭建基于`gpu`模式的`yolov5`检测算法的分布式训练单元`POD`任务
+
 
 ## 参考链接
 * 1 [`pytorch`框架下训练`mnist`手写体识别流程](https://www.kubeflow.org/docs/components/training/pytorch/)
